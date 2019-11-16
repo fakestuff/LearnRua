@@ -15,7 +15,7 @@ fn main() {
     let c = 'z';
     let z = 'ℤ';
     let heart_eyed_cat = '😻';
-    println!("{}",heart_eyed_cat);
+    println!("{}", heart_eyed_cat);
 
     let tup = (500, 6.4, 1);
 
@@ -33,8 +33,20 @@ fn main() {
 
     let a = [1, 2, 3, 4, 5];
 
-    let months = ["January", "February", "March", "April", "May", "June", "July",
-              "August", "September", "October", "November", "December"];
+    let months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
 
     let a: [i32; 5] = [1, 2, 3, 4, 5];
 
